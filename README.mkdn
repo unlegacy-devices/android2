@@ -1,50 +1,53 @@
-CyanogenMod
-===========
+TEMASEK
+=======
 
-Submitting Patches
-------------------
-Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
-You can do this by using these commands:
-
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    cmgerrit <for(new)/changes(patch set)> <branch/change-id> 
-
-    repo start cm-13.0 .
-    (Make your changes and commit)
-    repo upload .
-Note: "." meaning current directory
-For more help on using this tool, use this command: repo help upload
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.cyanogenmod.org/)
+This project is WORKS-IN-PROGRESS (WIP), not ready for use.
 
 
-Getting Started
----------------
+Download the Source
+===================
 
-To get started with Android/CyanogenMod, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
+Please see the CyanogenMod Wiki for building instructions.
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+Initializing Repository
+-----------------------
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-13.0
+Repo initialization:
 
-Then to sync up:
+    $ repo init -u https://github.com/temasek/android.git -b cm-13.0
 
-    repo sync
 
-Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
+sync repo :
 
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
+    $ repo sync
 
-Buildbot
---------
 
-All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
+Credits
+=======
 
-You can view the current build statuses at [CyanogenMod Jenkins](http://jenkins.cyanogenmod.org/)
+Google for the Android source code. CyanogenMod, in which this source layout was used as a starting point for me. Everyone in crDroid, AOSPA, CyanogenMod, OmniROM, SlimROM, LiquidSmooth, SpasilliumNexus, DirtyUnicorns, NamelessROM, AICP, Euphoria-OS, TeamBliss, PAC and anyone else I forgot to mention for their commits.
+
+Special mention - Cristiano Matos (crDroid)
+
+Temasek HEAD of optimizations - arter97 (And advisor to kernel, device trees)
+
+PartimusPrime - Official bootanimation creator for temasek builds
+
+Contributors - Khaon, neobuddy89, rogersb11 (Brett Rogers)
+
+
+Officially Recognized Device Maintainers
+========================================
+temasek (hlte/hltespr, tilapia/grouper)
+
+arter97 (flo, i9300, ks01lte)
+
+katinatez (Bacon)
+
+joshndroid (lte03wifi, mako, Nexus 9 Wifi)
+
+apascual89 (Nexus 6, Note 4)
+
+kornfed (klte)
+
+neobuddy89 (lettuce)

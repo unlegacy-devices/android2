@@ -22,6 +22,16 @@ sync repo :
     $ repo sync
 
 
+Temasek Bootanimation
+---------------------
+
+Setting Aspect Ratio (TARGET_SCREEN_ASPECT_RATIO)
+
+Modern devices have excellent screens and most if not all boot animations from source do not take advantage of this. Devices have a set aspect ratio such as 16:9, 16:10, etc based on their width and height We can take advantage of this to create high quality full screen boot animations Within your device tree either in cm.mk, device.mk, or for example hlte.mk (for Samsung Galaxy Note 3 International) you will have "TARGET_SCREEN_HEIGHT" & "TARGET_SCREEN_WIDTH" These numbers should correspond to things such as 720p, 1080p, 1440p, in lamens terms. 
+
+If so, your device is said to have a screen aspect ratio of 16:9 Under your TARGET_SCREEN_HEIGHT & TARGET_SCREEN_WIDTH values place the corresponding ratio as follows: TARGET_SCREEN_ASPECT_RATIO := 16-by-9 (this will also work with 16:10) This is device independant in that it will choose the correct full screen bootanimation for either phone or tablet config
+
+
 Credits
 =======
 

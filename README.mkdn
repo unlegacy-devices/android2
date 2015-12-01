@@ -35,6 +35,14 @@ TARGET_SCREEN_ASPECT_RATIO := 16by9
 
 (this will also work with 16:10) This is device independant in that it will choose the correct full screen bootanimation for either phone or tablet config
 
+Further, the device requires a qualifier in the same location.
+
+SCREEN_RATIO_PROPORTIONATE := true
+
+This line is used as a conditioner flag, which allows the full screen boot animations to be seperated, allows to have more than 1 aspect ratio and not clutter up vendor with multiple ifeq statements that are for the same thing.
+
+This condition flag will essentially 'turn on' the full screen boot animation and the TARGET_SCREEN_ASPECT_RATIO flag will tell the build from what ratio the boot animation will be selected from.
+
 
 Credits
 =======

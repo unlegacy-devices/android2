@@ -66,10 +66,10 @@ arter97 (flo, i9300, ks01lte)
 
 katinatez (Bacon)
 
-joshndroid (lte03wifi, mako, Nexus 9 Wifi)
+joshndroid (lte03wifi, mako, Nexus 9 Wifi, Nexus 6p)
 
-apascual89 (Nexus 6, Note 4)
+apascual89 (Note 4, hammerhead, Nexus 6p)
 
 kornfed (klte)
 
-neobuddy89 (lettuce)
+neobuddy89 (lettuce , Nexus 6)

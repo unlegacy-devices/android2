@@ -29,6 +29,7 @@
   <project path="bionic" name="temasek/android_bionic" remote="github" revision="cm-13.0" />
   <project path="bootable/recovery" name="temasek/android_bootable_recovery" remote="github" revision="cm-13.0" />
   <project path="external/libpng" name="temasek/android_external_libpng" remote="github" revision="cm-13.0" />
+  <project path="external/jemalloc" name="arter97/android_external_jemalloc" remote="github" revision="android-6.0" />
   <project path="external/sepolicy" name="temasek/android_external_sepolicy" remote="github" revision="cm-13.0" />
   <project path="external/sqlite" name="arter97/android_external_sqlite" remote="github" revision="cm-13.0" />
   <project path="external/toybox" name="temasek/android_external_toybox" remote="github" revision="cm-13.0" />
@@ -408,7 +409,7 @@
   <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
+  <!--<project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />-->
   <project path="external/jetty" name="platform/external/jetty" groups="pdk-fs" remote="aosp" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" remote="aosp" />
   <project path="external/jline" name="platform/external/jline" groups="notdefault,tradefed" remote="aosp" />

@@ -37,6 +37,7 @@
   <project path="frameworks/base" name="temasek/android_frameworks_base" remote="github" revision="cm-13.0" />
   <project path="frameworks/native" name="temasek/android_frameworks_native" remote="github" revision="cm-13.0" />
   <project path="frameworks/opt/telephony" name="temasek/android_frameworks_opt_telephony" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/Bluetooth" name="temasek/android_packages_apps_Bluetooth" remote="github" revision="cm-13.0" />
   <project path="packages/apps/OTAUpdates" name="temasek/OTAUpdates" revision="aosp" />
   <project path="packages/apps/Settings" name="temasek/android_packages_apps_Settings" remote="github" revision="cm-13.0" />
   <project path="packages/apps/SetupWizard" name="temasek/android_packages_apps_SetupWizard" remote="github" revision="cm-13.0" />
@@ -237,7 +238,7 @@
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk" />
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+  <!--<project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />-->
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" groups="pdk-fs" />

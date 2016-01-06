@@ -62,14 +62,16 @@ Officially Recognized Device Maintainers
 ========================================
 temasek (hlte/hltespr, tilapia/grouper)
 
-arter97 (flo, i9300, ks01lte)
+arter97 (flo, ks01lte)
 
 katinatez (Bacon)
 
 joshndroid (lte03wifi, mako, Nexus 9 Wifi, Nexus 6p)
 
-apascual89 (Note 4, hammerhead, Nexus 6p)
+apascual89 (hammerhead, Nexus 6p)
 
 kornfed (klte)
 
 neobuddy89 (lettuce , Nexus 6)
+
+Darkened_Sky (i9300)

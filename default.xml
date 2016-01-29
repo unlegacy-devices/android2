@@ -20,7 +20,7 @@
 
 <project path="build" name="ishantvivek/android_build" remote="github" revision="cm-13.0" />  
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>           
+</project>           
 <!-- KYLEPROXX -->
   <project path="device/samsung/kylepro" name="ishantvivek/android_device_samsung_kyleproxx" remote="github" revision="cm-13.0-kylepro" /> 
   <project path="device/samsung/kyleprods" name="ishantvivek/android_device_samsung_kyleproxx" remote="github" revision="cm-13.0" />

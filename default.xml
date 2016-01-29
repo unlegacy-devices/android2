@@ -17,7 +17,10 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
-           
+
+<project path="build" name="ishantvivek/android_build" remote="github" revision="cm-13.0" />  
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>           
 <!-- KYLEPROXX -->
   <project path="device/samsung/kylepro" name="ishantvivek/android_device_samsung_kyleproxx" remote="github" revision="cm-13.0-kylepro" /> 
   <project path="device/samsung/kyleprods" name="ishantvivek/android_device_samsung_kyleproxx" remote="github" revision="cm-13.0" />
@@ -29,9 +32,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
 
 <!-- BEGIN CYANOGENMOD -->
-  <project path="build" name="ishantvivek/android_build" remote="github" revision="cm-13.0" />  
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="android" name="ishantvivek/android" remote="github" revision="cm-13.0" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />

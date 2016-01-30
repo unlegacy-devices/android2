@@ -30,6 +30,7 @@
   <project path="external/icu" name="ishantvivek/android_external_icu" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="hardware/broadcom/libbt" name="ishantvivek/android_hardware_broadcom_libbt" remote="github" revision="cm-13.0" />
 
 <!-- BEGIN CYANOGENMOD -->
   <project path="android" name="ishantvivek/android" remote="github" revision="cm-13.0" />
@@ -172,7 +173,6 @@
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" />
-  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" />

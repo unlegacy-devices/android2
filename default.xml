@@ -27,10 +27,10 @@
   <project path="kernel/samsung/kyleproxx" name="ishantvivek/android_kernel_samsung_kyleproxx" remote="github" revision="cm-13.0-test" />
   <project path="vendor/samsung/kyleproxx" name="ishantvivek/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
   <project path="system/core" name="CyanogenMod/android_system_core" remote="github" revision="cm-13.0" />
-  <project path="external/icu" name="ishantvivek/android_external_icu" remote="github" revision="cm-13.0" />
+  <project path="external/icu" name="CyanogenMod/android_external_icu" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="hardware/broadcom/libbt" name="ishantvivek/android_hardware_broadcom_libbt" remote="github" revision="cm-13.0" />
+  <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" remote="github" revision="cm-13.0" />
   <project path="external/stlport" name="platform/external/stlport" remote="aosp" revision="refs/tags/android-5.1.1_r34" />
 
 <!-- BEGIN CYANOGENMOD -->
@@ -118,7 +118,7 @@
   <project path="external/powertop" name="CyanogenMod/android_external_powertop" />
   <project path="external/protobuf-c" name="CyanogenMod/android_external_protobuf-c" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" />
-  <project path="external/sepolicy" name="ishantvivek/android_external_sepolicy" remote="github" revision="cm-13.0" />
+  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="github" revision="cm-13.0" />
   <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
@@ -148,7 +148,7 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="ishantvivek/android_frameworks_native" remote="github" revision="cm-13.0" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="github" revision="cm-13.0" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" />

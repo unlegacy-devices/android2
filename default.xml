@@ -8,6 +8,14 @@
            remote="aosp"
            sync-j="4" />
 
+<!-- BEGIN Kyleproxx -->
+  <!-- KYLEPROXX -->
+  <project path="device/samsung/kylepro" name="SandPox/android_device_samsung_kylepro" remote="github" revision="cm-13.0" />
+  <project path="device/samsung/kyleprods" name="SandPox/android_device_samsung_kyleprods" remote="github" revision="cm-13.0" />
+  <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-13.0" />
+  <project path="vendor/samsung/kyleproxx" name="SandPox/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
+<!-- END kyleproxx DEVICE -->
+
   <!-- Build system essentials -->
   <project path="build" name="platform/build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile"/>

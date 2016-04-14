@@ -2,13 +2,13 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/webview-m40_r4"
            remote="aosp"
            sync-j="4" />
   <remote  name="github"
-           fetch=".." />        
+           fetch="https://github.com" />        
 
 <!-- BEGIN Kyleproxx -->
   <!-- KYLEPROXX -->

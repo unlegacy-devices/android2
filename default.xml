@@ -7,6 +7,8 @@
   <default revision="refs/tags/webview-m40_r4"
            remote="aosp"
            sync-j="4" />
+  <remote  name="github"
+           fetch=".." />        
 
 <!-- BEGIN Kyleproxx -->
   <!-- KYLEPROXX -->

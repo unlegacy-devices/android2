@@ -18,7 +18,7 @@
   <project path="vendor/samsung/kyleproxx" name="SandPox/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
 <!-- END kyleproxx DEVICE -->
 
-  <!-- Build system essentials -->
+  <!-- Build System Essentials -->
   <project path="build" name="platform/build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile"/>
   </project>

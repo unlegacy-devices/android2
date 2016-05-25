@@ -2,8 +2,7 @@
 <manifest>
 
   <remote name="aosp"
-
-           fetch="https://android.googlesource.com"
+           fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
            revision="refs/tags/android-n-preview-2" />
 
@@ -13,7 +12,7 @@
            remote="aosp"
            sync-c="true"
            sync-j="4"
-	          sync-f="true" />
+	         sync-f="true" />
 
 <!-- KYLEPROXX -->
 

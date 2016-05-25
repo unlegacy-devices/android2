@@ -3,15 +3,15 @@
 
   <remote name="aosp"
            fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com"
-           revision="refs/tags/android-n-preview-2" />
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-n-preview-2" />
 
   <remote name="github"
            fetch="https://github.com" />
   <default revision="refs/tags/android-n-preview-2"
-           remote="aosp"
-           sync-c="true"
-           sync-j="4"
+           remote="aosp"
+           sync-c="true"
+           sync-j="4"
 	         sync-f="true" />
 
 <!-- KYLEPROXX -->

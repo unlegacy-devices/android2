@@ -16,7 +16,7 @@
 
 <!-- KYLEPROXX -->
 
-  <!--<project path="device/samsung/kylepro" name="ishantvivek/android_device_samsung_kylepro" remote="github" revision="cm-13.0" />-->
+  <project path="device/samsung/kylepro" name="ishantvivek/android_device_samsung_kylepro" remote="github" revision="n" />
   <project path="device/samsung/kyleprods" name="ishantvivek/android_device_samsung_kyleprods" remote="github" revision="n" />
   <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-13.0" />
   <project path="vendor/samsung/kyleproxx" name="Sandpox/android_vendor_samsung_kyleproxx" remote="github" revision="master" />

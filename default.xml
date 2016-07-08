@@ -16,6 +16,9 @@
 
 <!-- KYLEPROXX -->
 
+  <project path="build" name="google-aosp/build" remote="github" revision="master" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="device/samsung/kylepro" name="ishantvivek/android_device_samsung_kylepro" remote="github" revision="n" />
   <project path="device/samsung/kyleprods" name="ishantvivek/android_device_samsung_kyleprods" remote="github" revision="n" />
   <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-13.0" />
@@ -27,9 +30,8 @@
 
 <!-- END Kyleproxx --> 
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  <!--<project path="build" name="platform/build" groups="pdk,tradefed" >
+  </project> -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >

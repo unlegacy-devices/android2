@@ -16,7 +16,7 @@
 
 <!-- KYLEPROXX -->
 
-  <project path="build" name="google-aosp/build" remote="github" revision="master" >
+  <project path="build" name="google-aosp/build" remote="github" revision="n-preview" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/samsung/kylepro" name="ishantvivek/android_device_samsung_kylepro" remote="github" revision="n" />

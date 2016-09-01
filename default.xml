@@ -32,7 +32,7 @@
   <project path="frameworks/base" name="google-aosp/platform_frameworks_base" remote="github" revision="7.0" />
   <project path="frameworks/opt/net/wifi" name="google-aosp/android_frameworks_opt_net_wifi" remote="github" revision="7.0" />
   <project path="frameworks/opt/telephony" name="google-aosp/android_frameworks_opt_telephony" remote="github" revision="7.0" />
-  <project path="hardware/broadcom/libbt" name="google-aosp/android_hardware_broadcom_libbt" remote="github" revision="7.0" />
+  <project path="hardware/broadcom/libbt" name="google-aosp/android_hardware_broadcom_libbt" remote="github" revision="7.0-new" />
   <project path="hardware/libhardware_legacy" name="google-aosp/android_hardware_libhardware_legacy" remote="github" revision="7.0" />
 
 <!-- END Kyleproxx -->

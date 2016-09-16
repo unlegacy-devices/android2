@@ -36,6 +36,11 @@
   <project path="frameworks/opt/telephony" name="google-aosp/android_frameworks_opt_telephony" remote="github" revision="7.0" />
   <project path="hardware/broadcom/libbt" name="google-aosp/android_hardware_broadcom_libbt" remote="github" revision="7.0-new" />
   <project path="hardware/libhardware_legacy" name="google-aosp/android_hardware_libhardware_legacy" remote="github" revision="7.0" />
+  <!-- CYANOGEN REPO -->
+  <project path="frameworks/av" name="google-aosp/android_frameworks_av" remote="github" revision="7.0"/>
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="staging/cm-14.0" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="staging/cm-14.0" />
+  <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="staging/cm-14.0" />
 
 <!-- END Kyleproxx -->
 
@@ -337,7 +342,7 @@
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
+  <!--<project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />-->
   <!--<project path="frameworks/base" name="platform/frameworks/base" groups="pdk-cw-fs,pdk-fs" />-->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
@@ -537,7 +542,7 @@
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <!--<project path="system/media" name="platform/system/media" groups="pdk" />-->
   <project path="system/nativepower" name="platform/system/nativepower" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />

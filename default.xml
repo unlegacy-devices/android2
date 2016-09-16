@@ -36,12 +36,14 @@
   <project path="frameworks/opt/telephony" name="google-aosp/android_frameworks_opt_telephony" remote="github" revision="7.0" />
   <project path="hardware/broadcom/libbt" name="google-aosp/android_hardware_broadcom_libbt" remote="github" revision="7.0-new" />
   <project path="hardware/libhardware_legacy" name="google-aosp/android_hardware_libhardware_legacy" remote="github" revision="7.0" />
+  <project path="packages/apps/Settings" name="google-aosp/packages_apps_settings" remote="github" revision="7.0" />
   <!-- CYANOGEN REPO -->
   <project path="frameworks/av" name="google-aosp/android_frameworks_av" remote="github" revision="7.0"/>
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="staging/cm-14.0" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="staging/cm-14.0" />
   <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="staging/cm-14.0" />
-
+  <!-- DU Repos -->
+  <project path="packages/apps/DU-Tweaks" name="google-aosp/android_packages_apps_DU-Tweaks" remote="github" revision="7.0" />
 <!-- END Kyleproxx -->
 
   <!--<project path="build" name="platform/build" groups="pdk,tradefed" >
@@ -458,7 +460,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
+  <!-- <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" /> -->
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />

@@ -44,6 +44,7 @@
   <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="staging/cm-14.0" />
   <!-- DU Repos -->
   <project path="packages/apps/DU-Tweaks" name="google-aosp/android_packages_apps_DU-Tweaks" remote="github" revision="7.0" />
+  <project path="frameworks/support" name="google-aosp/android_frameworks_support" remote="github" revision="n" />
 <!-- END Kyleproxx -->
 
   <!--<project path="build" name="platform/build" groups="pdk,tradefed" >
@@ -373,7 +374,7 @@
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
-  <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
+  <!-- <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />-->
   <project path="frameworks/data-binding" name="platform/frameworks/data-binding" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="platform/frameworks/webview" groups="pdk-cw-fs,pdk-fs" />

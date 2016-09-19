@@ -26,7 +26,7 @@
   <project path="kernel/samsung/kyleproxx" name="ishantvivek/android_kernel_samsung_kyleproxx" remote="github" revision="cm-14.0" />
   <project path="vendor/samsung/kyleproxx" name="ishantvivek/android_vendor_samsung_kyleproxx" remote="github" revision="7.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <!--<project path="external/chromium-webview" name="ishantvivek/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="github" revision="aosp-6.0" />-->
+  <project path="external/chromium-webview" name="ishantvivek/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="github" revision="7.0" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />
   <project path="frameworks/native" name="google-aosp/platform_frameworks_native" remote="github" revision="7.0" />
   <project path="system/core" name="google-aosp/platform_system_core" remote="github" revision="7.0" />
@@ -127,7 +127,7 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
+  <!-- <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" /> -->
   <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />

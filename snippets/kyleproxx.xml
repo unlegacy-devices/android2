@@ -2,9 +2,9 @@
 <manifest>
 
   <!-- Device-specific HALs/packages/DT -->
-  <project path="build" name="google-aosp/build" remote="github" revision="cm-14.0" >
+  <!--<project path="build" name="google-aosp/build" remote="github" revision="cm-14.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  </project>-->
   <project path="device/samsung/kyleprods" name="ishantvivek/android_device_samsung_kyleprods" remote="github" revision="cm-14.0" />
   <!-- <project path="device/samsung/kylepro" name="ishantvivek/android_device_samsung_kylepro" remote="github" revision="cm-14.0" /> -->
   <project path="kernel/samsung/kyleproxx" name="ishantvivek/android_kernel_samsung_kyleproxx" remote="github" revision="cm-14.0" />

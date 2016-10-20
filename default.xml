@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+<<<<<<< HEAD
   <remote name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.0_r1" />
+           revision="refs/tags/android-7.1.0_r2" />
 
   <remote name="github"
            fetch="https://github.com" />
-  <default revision="refs/tags/android-7.1.0_r1"
+  <default revision="refs/tags/android-7.1.0_r2"
            remote="aosp"
            sync-c="true"
            sync-f="true"

@@ -43,9 +43,9 @@
   <project path="packages/services/Telephony" name="google-aosp/android_packages_services_Telephony" remote="github" revision="7.1" />
   <!-- CYANOGEN REPO -->
   <project path="frameworks/av" name="google-aosp/android_frameworks_av" remote="github" revision="7.1"/>
-  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-14.0" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-14.0" />
-  <!--<project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-14.0" />-->
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-14.1" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
+  <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-14.1" />
   <!-- DU Repos -->
   <project path="packages/apps/DU-Tweaks" name="google-aosp/android_packages_apps_DU-Tweaks" remote="github" revision="7.0" />
   <project path="frameworks/support" name="google-aosp/android_frameworks_support" remote="github" revision="7.1" />
@@ -559,7 +559,7 @@
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
-  <project path="system/media" name="platform/system/media" groups="pdk" />
+  <!-- <project path="system/media" name="platform/system/media" groups="pdk" />-->
   <project path="system/nativepower" name="platform/system/nativepower" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />

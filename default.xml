@@ -4,11 +4,11 @@
   <remote name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-7.1.0_r4" />
+           revision="refs/tags/android-7.1.0_r7" />
 
   <remote name="github"
            fetch="https://github.com" />
-  <default revision="refs/tags/android-7.1.0_r4"
+  <default revision="refs/tags/android-7.1.0_r7"
            remote="aosp"
            sync-c="true"
            sync-f="true"
@@ -471,8 +471,13 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
+<<<<<<< HEAD
   <!-- <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" /> -->
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" />
+=======
+  <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
+>>>>>>> FETCH_HEAD
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" groups="pdk-fs" />

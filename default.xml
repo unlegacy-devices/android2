@@ -27,6 +27,7 @@
   <project path="vendor/samsung/kyleproxx" name="ishantvivek/android_vendor_samsung_kyleproxx" remote="github" revision="7.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="packages/apps/Browser" name="google-aosp/android_packages_apps_Browser" remote="github" revision="7.1" />
+  <project path="packages/apps/Camera2" name="google-aosp/android_packages_apps_Camera2" remote="github" revision="7.1" />
   <project path="packages/apps/Music" name="google-aosp/platform_packages_apps_Music" remote="github" revision="7.1" />
   <project path="packages/providers/MediaProvider" name="google-aosp/android_packages_providers_MediaProvider" remote="github" revision="7.1" />
   <project path="packages/apps/Snap" name="google-aosp/android_packages_apps_Snap" remote="github" revision="7.1" />
@@ -436,7 +437,6 @@
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" />

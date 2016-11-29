@@ -29,6 +29,7 @@
   <project path="packages/apps/Browser" name="google-aosp/android_packages_apps_Browser" remote="github" revision="7.1" />
   <project path="packages/apps/Camera2" name="google-aosp/android_packages_apps_Camera2" remote="github" revision="7.1" />
   <project path="packages/apps/Music" name="google-aosp/platform_packages_apps_Music" remote="github" revision="7.1" />
+  <project path="packages/apps/Apollo" name="google-aosp/android_packages_apps_Apollo" remote="github" revision="7.1" />
   <project path="packages/providers/MediaProvider" name="google-aosp/android_packages_providers_MediaProvider" remote="github" revision="7.1" />
   <project path="packages/apps/Snap" name="google-aosp/android_packages_apps_Snap" remote="github" revision="7.1" />
   <project path="external/chromium-webview" name="ishantvivek/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="github" revision="7.0" />

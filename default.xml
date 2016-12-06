@@ -37,13 +37,13 @@
   <project path="frameworks/native" name="google-aosp/platform_frameworks_native" remote="github" revision="7.1.1" />
   <project path="system/core" name="google-aosp/platform_system_core" remote="github" revision="7.1.1" />
   <project path="system/vold" name="google-aosp/platform_system_vold" remote="github" revision="7.1.1" />
-  <project path="frameworks/base" name="google-aosp/platform_frameworks_base" remote="github" revision="7.1.1-rework" />
+  <project path="frameworks/base" name="google-aosp/platform_frameworks_base" remote="github" revision="7.1.1" />
   <project path="frameworks/opt/net/wifi" name="google-aosp/android_frameworks_opt_net_wifi" remote="github" revision="7.1.1" />
   <project path="frameworks/opt/telephony" name="google-aosp/android_frameworks_opt_telephony" remote="github" revision="7.1.1" />
   <project path="hardware/broadcom/libbt" name="google-aosp/android_hardware_broadcom_libbt" remote="github" revision="7.1.1" />
   <project path="hardware/libhardware" name="google-aosp/platform_hardware_libhardware" remote="github" revision="7.1.1" />
   <project path="hardware/libhardware_legacy" name="google-aosp/android_hardware_libhardware_legacy" remote="github" revision="7.1.1" />
-  <project path="packages/apps/Settings" name="google-aosp/packages_apps_settings" remote="github" revision="7.1.1-rework" />
+  <project path="packages/apps/Settings" name="google-aosp/packages_apps_settings" remote="github" revision="7.1.1" />
   <project path="packages/services/Telephony" name="google-aosp/android_packages_services_Telephony" remote="github" revision="7.1.1" />
 
   <project path="frameworks/av" name="google-aosp/android_frameworks_av" remote="github" revision="7.1.1"/>

@@ -32,6 +32,10 @@
   </project>
 
 <!-- KYLEPROXX WIP -->
+  <project path="device/samsung/kyleprods" name="ishantvivek/device_kyleprods" remote="github" revision="o" />
+  <project path="device/samsung/kylepro" name="ishantvivek/device_kylepro" remote="github" revision="o" />
+  <project path="kernel/samsung/kyleproxx" name="ishantvivek/kernel_kyleproxx" remote="github" revision="o" />
+  <project path="vendor/samsung/kyleproxx" name="ishantvivek/android_vendor_samsung_kyleproxx" remote="github" revision="7.0" />
   <project path="system/core" name="google-aosp/platform_system_core" remote="github" revision="8.0" />
 <!-- END KYLEPROXX -->
 

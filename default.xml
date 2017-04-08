@@ -15,7 +15,7 @@
            sync-f="true"
            sync-j="8" />
 
-  <project path="build/make" name="platform/build" groups="pdk" >
+  <project path="build/make" name="google-aosp/build" remote="github" revision="8.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -30,6 +30,11 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+<!-- KYLEPROXX WIP -->
+  <project path="system/core" name="google-aosp/platform_system_core" remote="github" revision="8.0" />
+<!-- END KYLEPROXX -->
+
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -532,7 +537,7 @@
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
+  <!--<project path="system/core" name="platform/system/core" groups="pdk" />-->
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" />

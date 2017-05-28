@@ -9,6 +9,9 @@
   <remote name="github"
            fetch="https://github.com" />
 
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
   <default revision="refs/tags/android-o-preview-2"
            remote="aosp"
            sync-c="true"
@@ -32,9 +35,9 @@
   </project>
 
 <!-- KYLEPROXX WIP -->
-  <project path="device/samsung/kyleprods" name="ishantvivek/device_kyleprods" remote="github" revision="o" />
-  <project path="device/samsung/kylepro" name="ishantvivek/device_kylepro" remote="github" revision="o" />
-  <project path="kernel/samsung/kyleproxx" name="ishantvivek/kernel_kyleproxx" remote="github" revision="o" />
+  <project path="device/samsung/kyleprods" name="ishantvivek/device_kyleprods" remote="private" revision="o" />
+  <project path="device/samsung/kylepro" name="ishantvivek/device_kylepro" remote="private" revision="o" />
+  <project path="kernel/samsung/kyleproxx" name="ishantvivek/kernel_kyleproxx" remote="private" revision="o" />
   <project path="vendor/samsung/kyleproxx" name="ishantvivek/android_vendor_samsung_kyleproxx" remote="github" revision="7.0" />
   <project path="system/core" name="google-aosp/platform_system_core" remote="github" revision="8.0" />
 <!-- END KYLEPROXX -->

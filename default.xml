@@ -48,8 +48,8 @@
   <project path="packages/services/Telephony" name="google-aosp/android_packages_services_Telephony" remote="github" revision="7.1.2" />
 
   <project path="frameworks/av" name="google-aosp/android_frameworks_av" remote="github" revision="7.1.2"/>
-  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-14.1" />
-  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
+  <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="github" revision="cm-14.1" />
+  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
   <project path="system/media" name="google-aosp/android_system_media" remote="github" revision="7.1.2" />
 
   <project path="frameworks/support" name="google-aosp/android_frameworks_support" remote="github" revision="7.1.2" />

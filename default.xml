@@ -16,43 +16,43 @@
 
 <!-- KYLEPROXX -->
 
-  <project path="build" name="google-aosp/build" remote="github" revision="7.1.1" >
+  <project path="build" name="google-aosp/android_build" remote="github" revision="7.1.2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="art" name="google-aosp/android_art" remote="github" revision="7.1.1" />
-  <project path="bionic" name="google-aosp/android_bionic" remote="github" revision="7.1.1" />
+  <project path="art" name="google-aosp/android_art" remote="github" revision="7.1.2" />
+  <project path="bionic" name="google-aosp/android_bionic" remote="github" revision="7.1.2" />
   <project path="device/samsung/kylepro" name="ishantvivek/android_device_samsung_kylepro" remote="github" revision="n" />
   <project path="device/samsung/kyleprods" name="ishantvivek/android_device_samsung_kyleprods" remote="github" revision="n" />
   <project path="kernel/samsung/kyleproxx" name="ishantvivek/android_kernel_samsung_kyleproxx" remote="github" revision="cm-14.1" />
   <project path="vendor/samsung/kyleproxx" name="ishantvivek/android_vendor_samsung_kyleproxx" remote="github" revision="7.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="packages/apps/Browser" name="google-aosp/android_packages_apps_Browser" remote="github" revision="7.1.1" />
-  <project path="packages/apps/Camera2" name="google-aosp/android_packages_apps_Camera2" remote="github" revision="7.1.1" />
-  <project path="packages/apps/Music" name="google-aosp/platform_packages_apps_Music" remote="github" revision="7.1.1" />
-  <project path="packages/apps/Apollo" name="google-aosp/android_packages_apps_Apollo" remote="github" revision="7.1.1" />
-  <project path="packages/apps/DeskClock" name="google-aosp/android_packages_apps_DeskClock" remote="github" revision="7.1.1" />
-  <project path="packages/providers/MediaProvider" name="google-aosp/android_packages_providers_MediaProvider" remote="github" revision="7.1.1" />
-  <project path="packages/apps/Snap" name="google-aosp/android_packages_apps_Snap" remote="github" revision="7.1.1" />
+  <project path="packages/apps/Browser" name="google-aosp/android_packages_apps_Browser" remote="github" revision="7.1.2" />
+  <project path="packages/apps/Camera2" name="google-aosp/android_packages_apps_Camera2" remote="github" revision="7.1.2" />
+  <project path="packages/apps/Music" name="google-aosp/android_packages_apps_Music" remote="github" revision="7.1.2" />
+  <project path="packages/apps/Apollo" name="google-aosp/android_packages_apps_Apollo" remote="github" revision="7.1.2" />
+  <project path="packages/apps/DeskClock" name="google-aosp/android_packages_apps_DeskClock" remote="github" revision="7.1.2" />
+  <project path="packages/providers/MediaProvider" name="google-aosp/android_packages_providers_MediaProvider" remote="github" revision="7.1.2" />
+  <project path="packages/apps/Snap" name="google-aosp/android_packages_apps_Snap" remote="github" revision="7.1.2" />
   <project path="external/chromium-webview" name="ishantvivek/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="github" revision="7.0" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" remote="github" revision="cm-14.0" />
-  <project path="frameworks/native" name="google-aosp/platform_frameworks_native" remote="github" revision="7.1.1" />
-  <project path="system/core" name="google-aosp/platform_system_core" remote="github" revision="7.1.1" />
-  <project path="system/vold" name="google-aosp/platform_system_vold" remote="github" revision="7.1.1" />
-  <project path="frameworks/base" name="google-aosp/platform_frameworks_base" remote="github" revision="7.1.1" />
-  <project path="frameworks/opt/net/wifi" name="google-aosp/android_frameworks_opt_net_wifi" remote="github" revision="7.1.1" />
-  <project path="frameworks/opt/telephony" name="google-aosp/android_frameworks_opt_telephony" remote="github" revision="7.1.1" />
-  <project path="hardware/broadcom/libbt" name="google-aosp/android_hardware_broadcom_libbt" remote="github" revision="7.1.1" />
-  <project path="hardware/libhardware" name="google-aosp/platform_hardware_libhardware" remote="github" revision="7.1.1" />
-  <project path="hardware/libhardware_legacy" name="google-aosp/android_hardware_libhardware_legacy" remote="github" revision="7.1.1" />
-  <project path="packages/apps/Settings" name="google-aosp/packages_apps_settings" remote="github" revision="7.1.1" />
-  <project path="packages/services/Telephony" name="google-aosp/android_packages_services_Telephony" remote="github" revision="7.1.1" />
+  <project path="frameworks/native" name="google-aosp/android_frameworks_native" remote="github" revision="7.1.2" />
+  <project path="system/core" name="google-aosp/android_system_core" remote="github" revision="7.1.2" />
+  <project path="system/vold" name="google-aosp/android_system_vold" remote="github" revision="7.1.2" />
+  <project path="frameworks/base" name="google-aosp/android_frameworks_base" remote="github" revision="7.1.2" />
+  <project path="frameworks/opt/net/wifi" name="google-aosp/android_frameworks_opt_net_wifi" remote="github" revision="7.1.2" />
+  <project path="frameworks/opt/telephony" name="google-aosp/android_frameworks_opt_telephony" remote="github" revision="7.1.2" />
+  <project path="hardware/broadcom/libbt" name="google-aosp/android_hardware_broadcom_libbt" remote="github" revision="7.1.2" />
+  <project path="hardware/libhardware" name="google-aosp/android_hardware_libhardware" remote="github" revision="7.1.2" />
+  <project path="hardware/libhardware_legacy" name="google-aosp/android_hardware_libhardware_legacy" remote="github" revision="7.1.2" />
+  <project path="packages/apps/Settings" name="google-aosp/android_packages_apps_settings" remote="github" revision="7.1.2" />
+  <project path="packages/services/Telephony" name="google-aosp/android_packages_services_Telephony" remote="github" revision="7.1.2" />
 
-  <project path="frameworks/av" name="google-aosp/android_frameworks_av" remote="github" revision="7.1.1"/>
+  <project path="frameworks/av" name="google-aosp/android_frameworks_av" remote="github" revision="7.1.2"/>
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" remote="github" revision="cm-14.1" />
   <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
-  <project path="system/media" name="google-aosp/android_system_media" remote="github" revision="7.1.1" />
+  <project path="system/media" name="google-aosp/android_system_media" remote="github" revision="7.1.2" />
 
-  <project path="frameworks/support" name="google-aosp/android_frameworks_support" remote="github" revision="7.1.1" />
+  <project path="frameworks/support" name="google-aosp/android_frameworks_support" remote="github" revision="7.1.2" />
 
 <!-- END Kyleproxx -->
 

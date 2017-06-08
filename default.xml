@@ -8,6 +8,10 @@
 
   <remote name="github"
            fetch="https://github.com" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
   <default revision="refs/tags/android-7.1.2_r17"
            remote="aosp"
            sync-c="true"
@@ -21,9 +25,9 @@
   </project>
   <project path="art" name="google-aosp/android_art" remote="github" revision="7.1.2" />
   <project path="bionic" name="google-aosp/android_bionic" remote="github" revision="7.1.2" />
-  <project path="device/samsung/kylepro" name="ishantvivek/android_device_samsung_kylepro" remote="github" revision="n" />
-  <project path="device/samsung/kyleprods" name="ishantvivek/android_device_samsung_kyleprods" remote="github" revision="n" />
-  <project path="kernel/samsung/kyleproxx" name="ishantvivek/android_kernel_samsung_kyleproxx" remote="github" revision="cm-14.1" />
+  <project path="device/samsung/kylepro" name="ishantvivek/device_kylepro" remote="private" revision="n" />
+  <project path="device/samsung/kyleprods" name="ishantvivek/device_kyleprods" remote="private" revision="n" />
+  <project path="kernel/samsung/kyleproxx" name="ishantvivek/kernel_kyleproxx" remote="private" revision="cm-14.1" />
   <project path="vendor/samsung/kyleproxx" name="ishantvivek/android_vendor_samsung_kyleproxx" remote="github" revision="7.0" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="packages/apps/Browser" name="google-aosp/android_packages_apps_Browser" remote="github" revision="7.1.2" />
